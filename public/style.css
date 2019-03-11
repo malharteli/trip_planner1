@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  height: 15px;
+  display: box;
+  background-color: antiquewhite;
+}
+
+#menu {
+
+  height: 100%;
+  float: right;
+  /*margin-bottom: 16.5%;*/
+  background-color: green;
+}
+
+#itinerary {
+  height: 100%;
+  background-color: orangered;
+}
+
+.flex-right {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+
+.flex-vert {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+
+}
